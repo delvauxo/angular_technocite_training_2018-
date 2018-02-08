@@ -1,0 +1,34 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="ui inverted segment">
+    <div class="ui inverted secondary pointing menu">
+      <a class="item active">
+        Link
+      </a>
+      <a class="item">
+        Messages
+      </a>
+      <a class="item">
+        Friends
+      </a>
+    </div>
+</div>
+
+<div class="ui inverted segment">
+  <div class="ui inverted form">
+    <div class="two fields">
+      <div class="field">
+        <label for="title">Title</label>
+        <input placeholder="Title" type="text" name="title" #newTitle >
+      </div>
+      <div class="field">
+        <label for="link">Link</label>
+        <input placeholder="Link" type="text" name="link" #newLink >
+      </div>
+    </div>
+    <div (click)="addArticle(newTitle, newLink)" class="ui submit button">Add</div>
+  </div>
+</div>
+<div class="ui grid posts">
+  <app-article *ngFor="let article of sortedArticles()" [article]="article"></app-article>
+</div>
+

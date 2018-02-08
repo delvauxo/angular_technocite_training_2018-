@@ -1,0 +1,27 @@
+nav {
+  // background-color: red;
+  border-bottom: 1px solid lightgray;
+
+  ul {
+    margin-bottom: 0;
+    // background-color: green;
+
+    li {
+      list-style: none;
+      // background-color: yellow;
+
+      a {
+        display: block;
+        padding: 15px 0;
+        font-size: 2rem;
+        color: black;
+        // background-color: blue;
+
+        &:hover {
+          text-decoration: none;
+          color: black;
+        }
+      }
+    }
+  }
+}

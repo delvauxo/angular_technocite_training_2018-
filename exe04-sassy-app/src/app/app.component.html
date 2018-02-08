@@ -1,0 +1,6 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+<app-main-menu></app-main-menu>
+
+<!-- la propriété [products] de app-product-list.ts vaut products de app.component.ts -->
+<app-product-list [products]="products" (SelectedProduct)="deleteProduct($event)" ></app-product-list>

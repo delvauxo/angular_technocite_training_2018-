@@ -1,0 +1,32 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+@import '../variables';
+
+
+div.blueLight,
+div.blueMid,
+div.blueDark {
+  height: 25px;
+  color: white;
+  border: 1px solid white;
+}
+
+div.blueLight {
+  background-color: $blueLight;
+}
+
+div.blueMid {
+  background-color: $blueMid;
+}
+
+div.blueDark {
+  background-color: $blueDark;
+}
+
+
+h1 {
+  font-size: 1.7rem;
+}
+
+img.logo {
+  margin: 50px 0;
+}

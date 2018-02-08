@@ -1,0 +1,18 @@
+<div class="product-item">
+  <div class="row">
+    <div class="col-md-3 product-item-img">
+      <img src="{{ product.imageUrl }}" alt="{{ product.name }}">
+    </div>
+
+    <div class="col-md-9 product-item-infos">
+      <p class="product-item-infos-name">{{ product.name }}</p>
+      <p class="product-item-infos-sku">{{ product.sku }}</p>
+      <p class="product-item-infos-cat">{{ product.cat }}</p>
+      <p class="product-item-infos-price">{{ product.price }}</p>
+      <a class="product-item-infos-delete" href="#" (click)='selectItem(product)'>
+        <i class="fas fa-trash-alt"></i>
+      </a>
+    </div>
+    <!-- <app-product-item *ngFor="let myProduct of products" [product]="myProduct" ></app-product-item> -->
+  </div>
+</div>

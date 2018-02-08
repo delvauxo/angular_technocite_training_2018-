@@ -1,0 +1,40 @@
+.product-item {
+  margin-bottom: 25px;
+  // background-color: green;
+
+  .product-item-img {
+    // background-color: cyan;
+
+    img {
+      width: 250px;
+      border: 1px solid black;
+
+    }
+  }
+
+  .product-item-infos {
+    padding: 15px;
+    background-color: lighten(lightgray, 12%);
+
+    p.product-item-infos-name {
+      font-size: 1.2rem;
+      // background-color: purple;
+    }
+
+    p.product-item-infos-sku {
+      //
+    }
+
+    p.product-item-infos-price {
+      //
+
+      &:after {
+        content: ' €';
+      }
+    }
+
+    p.product-item-infos-cat {
+      //
+    }
+  }
+}
