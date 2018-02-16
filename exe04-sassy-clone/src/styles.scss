@@ -4,6 +4,7 @@
 html {
   box-sizing: border-box;
   background-color: $blueMid;
+  font-size: 16px;
 }
 
 *, *:before, *:after {
@@ -16,7 +17,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   color: grey;
-  background-color: white;
+  background-color: $blueDark;
 }
 
 input[text], button {

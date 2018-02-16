@@ -1,19 +1,22 @@
-<!--The content below is only a placeholder and can be replaced.-->
+<!-- MENU -->
 <app-menu-main></app-menu-main>
+
+<!-- LOGO -->
+<div id="logo-container" style="text-align:center; background-color: white;">
+  <img class="logo" alt="Angular Logo" src="http://ksuesports.com/wp-content/uploads/2017/08/hots-logo.png">
+  <!-- <h1>Welcome to {{ title }}!</h1> -->
+</div>
 
 <div class="container">
 
-  <div style="text-align:center">
-    <img class="logo" alt="Angular Logo" src="http://ksuesports.com/wp-content/uploads/2017/08/hots-logo.png">
-    <h1>Welcome to {{ title }}!</h1>
-  </div>
+  <router-outlet></router-outlet>
 
-  <app-heroes></app-heroes>
+  <app-messages></app-messages>
 
-  <div class="row">
+  <!-- <div class="row">
     <div class="col-md-4 blueLight">$blueLight</div>
     <div class="col-md-4 blueMid">$blueMid</div>
     <div class="col-md-4 blueDark">$blueDark</div>
-  </div>
+  </div> -->
 
 </div>

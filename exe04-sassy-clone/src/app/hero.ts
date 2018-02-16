@@ -1,6 +1,8 @@
 export class Hero {
-
-  id: number;
   name: string;
-
+  short_name: string;
+  attribute_id: string;
+  role: string;
+  type: string;
+  icon_url: { '92x93': string};
 }

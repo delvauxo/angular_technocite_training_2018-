@@ -1,0 +1,18 @@
+<div *ngIf="hero">
+  <h2>{{ hero.name | uppercase }} Details</h2>
+  <!-- <img src="{{ hero.avatar }}" alt="{{ hero.name }}"> -->
+  <img src="https://blzmedia-a.akamaihd.net/heroes/{{ hero.name }}/bust.jpg" alt="{{ hero.name }}">
+  <div><span>Name: </span>{{hero.name}}</div>
+  <div><span>Attribute_id: </span>{{hero.attribute_id}}</div>
+  <div><span>Role: </span>{{hero.role}}</div>
+  <div><span>Type: </span>{{hero.type}}</div>
+  <div>
+    <label>name:
+      <input [(ngModel)]="hero.name" placeholder="name">
+    </label>
+  </div>
+</div>
+
+<button (click)="save()">save</button>
+
+<button (click)="goBack()">go back</button>
