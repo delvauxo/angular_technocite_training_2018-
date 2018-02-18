@@ -178,7 +178,7 @@ ul.heroes {
     text-align: center;
     font-size: 0.9rem;
     min-width: 30px;
-    // background-color: $blueLight;
+    // background-color: lighten($color: red, $amount: 40%);
   }
 
 
@@ -193,12 +193,12 @@ ul.heroes {
     }
 
     #hero-details-name.spec-bg {
-      background-color: darken($specialist, 10%);
+      background-color: darken($specialist, 3%);
       border-bottom: 1px solid $blueDark;
     }
 
     #hero-details-name.supp-bg {
-      background-color: darken($support, 15%);
+      background-color: darken($support, 10%);
       border-bottom: 1px solid $blueDark;
     }
 
