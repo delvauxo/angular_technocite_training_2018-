@@ -5,4 +5,5 @@ export class Hero {
   role: string;
   type: string;
   icon_url: { '92x93': string};
+
 }

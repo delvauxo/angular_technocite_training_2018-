@@ -13,7 +13,7 @@
           <!-- ASSASSIN -->
           <div *ngSwitchCase="'Assassin'" id="hero-details-name" class="assa-bg">{{ hero.name }}</div>
           <div *ngSwitchCase="'Assassin'" id="hero-details-img-container" class="assa-bg-deg">
-            <img class="assa-bd" id="hero-details-avatar" src="{{ hero.icon_url['92x93'] }}" alt="{{ hero.name }}">
+            <img class="assa-bd" id="hero-details-avatar" src="//cdn.hotstat.us/images/ui_targetportrait_hero_{{hero.short_name}}.png" alt="{{ hero.name }}">
             <img class="assa-bd" id="hero-details-role-pic" src="https://d1u5p3l4wpay3k.cloudfront.net/allstars_gamepedia/e/ee/Role_Assassin_Simple.svg?version=8a37cb81c613a217a13a4f186a83238c" alt="{{ hero.role }}">
           </div>
           <!-- WARRIOR -->
