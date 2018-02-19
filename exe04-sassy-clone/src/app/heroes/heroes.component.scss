@@ -178,7 +178,7 @@ ul.heroes {
     text-align: center;
     font-size: 0.9rem;
     min-width: 30px;
-    // background-color: $blueLight;
+    // background-color: lighten($color: red, $amount: 40%);
   }
 
 
@@ -188,22 +188,22 @@ ul.heroes {
     background-color: lighten($color: $blueDark, $amount: 15%);
 
     #hero-details-name.assa-bg {
-      background-color: $assassin;
+      background-color: darken($assassin, 3%);
       border-bottom: 1px solid $blueDark;
     }
 
     #hero-details-name.spec-bg {
-      background-color: $specialist;
+      background-color: darken($specialist, 3%);
       border-bottom: 1px solid $blueDark;
     }
 
     #hero-details-name.supp-bg {
-      background-color: $support;
+      background-color: darken($support, 10%);
       border-bottom: 1px solid $blueDark;
     }
 
     #hero-details-name.warr-bg {
-      background-color: $warrior;
+      background-color: darken($warrior, 10%);
       border-bottom: 1px solid $blueDark;
     }
 
